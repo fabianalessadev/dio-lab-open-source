@@ -32,6 +32,10 @@ Abra o seu Git Bash e digite o comando `git clone` seguido da URL do seu fork pa
 git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git
 ```
 Pressione enter, e uma cópia do seu fork no GitHub será criada localmente.
+E adicione `git remote add upstream`, para que o seu repositório local mantenha atualizado.
+```bash
+git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source
+```
 
 ### 3) Crie uma nova **branch** 
 Utilize o comando `git checkout -b` para criar e alternar para a nova branch e nomeie-a como `feat/community/SEU_USERNAME`
